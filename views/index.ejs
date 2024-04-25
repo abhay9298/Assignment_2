@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shoes Store</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="services.ejs">Services</a></li>
+        <li><a href="features.ejs">Unique Features</a></li>
+        <li><a href="login.ejs">Login</a></li>
+        <li><a href="signup.ejs">Signup</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="home">
+      <h1 class="main-heading">THE SHOE RACK</h1>
+      <p>We offer a wide range of stylish and comfortable shoes for every occasion.</p>
+    </section>
+    <section id="shoes">
+      <h2>Shoes</h2>
+      <ul class="horizontal-list">
+        <li>
+          <img src="sports.jpg" alt="Men's Shoes" class="shoe-image clickable">
+          <h3>Red sneakers</h3>
+          <p>Price Range: $50 - $200</p>
+        </li>
+        <li>
+          <img src="sneakers.jpg" alt="Shoe 1" class="shoe-image clickable">
+          <h3>Nike sneakers</h3>
+          <p>Price Range: $50 - $200</p>
+        </li>
+        <li>
+          <img src="running.jpg" alt="Shoe 2" class="shoe-image clickable">
+          <h3>Red Nike</h3>
+          <p>Price Range: $50 - $200</p>
+        </li>
+      </ul>
+    </section>
+    <section id="shoes">
+      <ul class="horizontal-list">
+        <li>
+          <img src="sports1.jpg" alt="Men's Shoes" class="shoe-image clickable">
+          <h3>Multicolor Running shoe</h3>
+          <p>Price Range: $50 - $200</p>
+        </li>
+        <li>
+          <img src="sneakers1.jpg" alt="Shoe 1" class="shoe-image clickable">
+          <h3>Red tape White sneakers</h3>
+          <p>Price Range: $50 - $200</p>
+        </li>
+        <li>
+          <img src="running1.jpg" alt="Shoe 2" class="shoe-image clickable">
+          <h3>Multicolor Sports</h3>
+          <p>Price Range: $50 - $200</p>
+        </li>
+      </ul>
+    </section>
+    <section id="shoes">
+      <ul class="horizontal-list">
+        <li>
+          <img src="sports2.jpg" alt="Men's Shoes" class="shoe-image clickable">
+          <h3>Nike sneakers</h3>
+          <p>Price Range: $50 - $200</p>
+        </li>
+        <li>
+          <img src="sneakers2.jpg" alt="Shoe 1" class="shoe-image clickable">
+          <h3>Brown Red Tape Loafer</h3>
+          <p>Price Range: $50 - $200</p>
+        </li>
+        <li>
+          <img src="running2.jpg" alt="Shoe 2" class="shoe-image clickable">
+          <h3>Boots</h3>
+          <p>Price Range: $50 - $200</p>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <link rel="stylesheet" href="styles.css">
+  <form action="/users" method="POST">
+    <div class="mb-3">
+        <label for="username" class="form-label">Name</label>
+        <input type="text" name="username" id="username" placeholder="Enter your name">
+    </div>
+    <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email">
+    </div>
+    <div class="mb-3">
+        <label for="comment" class="form-label">Password</label>
+        <input type="text" name="comment" id="comment" rows="3" placeholder="Your password"></input>
+    </div>
+    <button type="submit" class="btn btn-warning">Login</button>
+</form>
+  <footer class="footer">
+    <p>&copy; 2024 Shoes Store. All rights reserved.</p>
+  </footer>
+</body>
+</html>
